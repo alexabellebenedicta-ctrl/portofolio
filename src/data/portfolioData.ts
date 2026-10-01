@@ -1,7 +1,7 @@
 import { Project, SkillCategoryGroup, ToolItem, ExperienceItem, EducationInfo } from '../types/portfolio';
 
-export const PROFILE_PHOTO = '/src/assets/images/foto.jpg';
-export const HERO_IMAGE = '/src/assets/images/hero_digital_business_1790863842257.jpg';
+export const PROFILE_PHOTO = '/images/foto.jpg';
+export const HERO_IMAGE = '/images/foto.jpg';
 export const LINKEDIN_URL = 'https://www.linkedin.com/in/alexabelle-benedicta-0459603a5/';
 export const INSTAGRAM_URL = 'https://instagram.com/alexbl__';
 export const HOSPI_AI_LIVE_URL = 'https://hospi-ai.vercel.app/guest';
@@ -35,7 +35,7 @@ export const INITIAL_PROJECTS: Project[] = [
       'Product Development',
       'Design Thinking'
     ],
-    image: '/src/assets/images/hospi_ai_real.jpg',
+    image: '/images/VISUALISASI WEB.png',
     featured: true,
     links: {
       live: HOSPI_AI_LIVE_URL,
@@ -77,7 +77,7 @@ export const INITIAL_PROJECTS: Project[] = [
           id: 'Tangkapan layar antarmuka asli dari aplikasi HOSPI AI yang sedang aktif online.',
           en: 'Authentic interface screenshot of the active online HOSPI AI web application.'
         },
-        image: '/src/assets/images/hospi_ai_real.jpg',
+        image: '/images/VISUALISASI WEB.png',
         items: [
           {
             title: {
@@ -139,7 +139,7 @@ export const INITIAL_PROJECTS: Project[] = [
       'Digital Product Development',
       'Responsive Web'
     ],
-    image: '/src/assets/images/utaite_hub_real.jpg',
+    image: '/images/Screenshot 2026-10-01 230322.png',
     featured: false,
     links: {
       live: UTAITE_HUB_LIVE_URL,
@@ -180,7 +180,7 @@ export const INITIAL_PROJECTS: Project[] = [
           id: 'Tangkapan layar antarmuka asli dari website Utaite Hub yang sedang online.',
           en: 'Authentic interface screenshot of the active Utaite Hub website.'
         },
-        image: '/src/assets/images/utaite_hub_real.jpg',
+        image: '/images/Screenshot 2026-10-01 230322.png',
         items: [
           {
             title: {
@@ -228,7 +228,7 @@ export const INITIAL_PROJECTS: Project[] = [
       'Revenue Streams',
       'Customer Segments'
     ],
-    image: '/src/assets/images/bmc_coursework.jpg',
+    image: '/images/tempebar_BMC.jpg',
     featured: false,
     links: {
       note: {
@@ -268,7 +268,7 @@ export const INITIAL_PROJECTS: Project[] = [
           id: 'Tangkapan dokumen/foto lembar kerja tugas kuliah Business Model Canvas yang telah dikerjakan.',
           en: 'Captured document/photo of the completed Business Model Canvas coursework worksheet.'
         },
-        image: '/src/assets/images/bmc_coursework.jpg',
+        image: '/images/tempebar_BMC.jpg',
         items: [
           {
             title: {
@@ -316,7 +316,7 @@ export const INITIAL_PROJECTS: Project[] = [
       'Digital Illustration',
       'Canva & Design Tools'
     ],
-    image: '/src/assets/images/poster_showcase.jpg',
+    image: '/images/Fotografi.png',
     featured: false,
     links: {
       note: {
@@ -357,7 +357,7 @@ export const INITIAL_PROJECTS: Project[] = [
           id: 'Karya poster visual orisinal buatan Alexabelle Benedicta.',
           en: 'Original visual poster design created by Alexabelle Benedicta.'
         },
-        image: '/src/assets/images/poster_showcase.jpg',
+        image: '/images/Fotografi.png',
         items: [
           {
             title: {

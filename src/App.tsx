@@ -21,7 +21,7 @@ export default function App() {
   // Projects state with local storage persistence
   const [projects, setProjects] = useState<Project[]>(() => {
     try {
-      const saved = localStorage.getItem('alexabelle_portfolio_projects_v5');
+      const saved = localStorage.getItem('alexabelle_portfolio_projects_v7');
       if (saved) {
         const parsed: Project[] = JSON.parse(saved);
         // Exclude removed projects
@@ -53,7 +53,7 @@ export default function App() {
 
   useEffect(() => {
     try {
-      localStorage.setItem('alexabelle_portfolio_projects_v5', JSON.stringify(projects));
+      localStorage.setItem('alexabelle_portfolio_projects_v7', JSON.stringify(projects));
     } catch {
       // ignore
     }

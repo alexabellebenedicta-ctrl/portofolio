@@ -61,7 +61,7 @@ export const AddProjectModal: React.FC<AddProjectModalProps> = ({
         en: role || 'Project Lead & Contributor'
       },
       skills: skillsArray.length > 0 ? skillsArray : ['Digital Business', 'Problem Solving'],
-      image: '/src/assets/images/hero_digital_business_1790863842257.jpg',
+      image: '/images/foto.jpg',
       featured: false,
       links: externalLink ? {
         live: externalLink,
