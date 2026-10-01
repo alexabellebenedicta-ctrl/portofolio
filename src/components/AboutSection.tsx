@@ -34,22 +34,18 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
                 aria-hidden="true"
               />
 
-              <div className="flex items-center gap-4 mb-6 pb-6 border-b border-purple-100/70">
-                <img
-                  src="/src/assets/images/alexabelle_profile.jpg"
-                  alt="Alexabelle Benedicta"
-                  className="w-16 h-16 rounded-2xl object-cover object-top border-2 border-purple-200/80 shadow-xs"
-                />
-                <div>
-                  <h3 className="text-lg font-bold text-[#2E1065] tracking-tight">
-                    Alexabelle Benedicta
-                  </h3>
-                  <p className="text-xs text-[#7E22CE] font-bold">
+              <div className="mb-6 pb-6 border-b border-purple-100/70">
+                <h3 className="text-xl font-bold text-[#2E1065] tracking-tight">
+                  Alexabelle Benedicta
+                </h3>
+                <div className="flex flex-wrap items-center gap-2 mt-1.5">
+                  <span className="text-xs text-[#7E22CE] font-bold">
                     Mahasiswa Politeknik Internasional Bali
-                  </p>
-                  <p className="text-xs text-[#3B0764] font-medium mt-0.5">
+                  </span>
+                  <span className="text-purple-300">·</span>
+                  <span className="text-xs text-[#3B0764] font-medium">
                     D4 Bisnis Digital · Semester 3
-                  </p>
+                  </span>
                 </div>
               </div>
 
