@@ -1,6 +1,6 @@
 import { Project, SkillCategoryGroup, ToolItem, ExperienceItem, EducationInfo } from '../types/portfolio';
 
-export const PROFILE_PHOTO = '/src/assets/images/alexabelle_profile.jpg';
+export const PROFILE_PHOTO = '/src/assets/images/foto.jpg';
 export const HERO_IMAGE = '/src/assets/images/hero_digital_business_1790863842257.jpg';
 export const LINKEDIN_URL = 'https://www.linkedin.com/in/alexabelle-benedicta-0459603a5/';
 export const INSTAGRAM_URL = 'https://instagram.com/alexbl__';
