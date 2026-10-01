@@ -5,7 +5,7 @@ export const HERO_IMAGE = '/src/assets/images/hero_digital_business_179086384225
 export const LINKEDIN_URL = 'https://www.linkedin.com/in/alexabelle-benedicta-0459603a5/';
 export const INSTAGRAM_URL = 'https://instagram.com/alexbl__';
 export const HOSPI_AI_LIVE_URL = 'https://hospi-ai.vercel.app/guest';
-export const UTAITE_HUB_LIVE_URL = 'https://utaitehub-exuf-aml6vulgr-alexabellebenedicta-9132.vercel.app/#home';
+export const UTAITE_HUB_LIVE_URL = 'https://utaitehub-exuf.vercel.app?_vercel_share=Z1o0xLl68Tpwd7nOu3ASZkItfNA2rUa2';
 
 export const INITIAL_PROJECTS: Project[] = [
   {
