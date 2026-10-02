@@ -79,7 +79,7 @@ export const Navbar: React.FC<NavbarProps> = ({ language, onLanguageChange }) =>
           onClick={() => scrollTo('home')}
           className="group text-left text-lg font-bold tracking-tight text-[#2E1065] hover:text-[#581C87] transition-colors"
         >
-          <span>Portofolio</span>
+          <span>Portfolio</span>
         </button>
 
         {/* Zone 2: Clean 4-6 text navigation links */}
