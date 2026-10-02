@@ -6,6 +6,7 @@ export const LINKEDIN_URL = 'https://www.linkedin.com/in/alexabelle-benedicta-04
 export const INSTAGRAM_URL = 'https://instagram.com/alexbl__';
 export const HOSPI_AI_LIVE_URL = 'https://hospi-ai.vercel.app/guest';
 export const UTAITE_HUB_LIVE_URL = 'https://utaitehub-exuf.vercel.app?_vercel_share=Z1o0xLl68Tpwd7nOu3ASZkItfNA2rUa2';
+export const AUBIZ_FIGMA_URL = 'https://www.figma.com/proto/l6d2XvL3DNO5p8YfBydA33/AUBIZ-UI-UX?node-id=1-5&starting-point-node-id=1%3A5&t=DMu9vxzYYVPsUNj8-1';
 
 export const INITIAL_PROJECTS: Project[] = [
   {
@@ -107,6 +108,98 @@ export const INITIAL_PROJECTS: Project[] = [
             status: {
               id: 'Tersedia dalam Laporan Proyek',
               en: 'Available in Project Report'
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    id: 'aubiz-ui-ux',
+    title: 'UI/UX AUBIZ',
+    category: {
+      id: 'UI/UX & Product Design',
+      en: 'UI/UX & Product Design'
+    },
+    categoryType: 'web',
+    subtitle: {
+      id: 'Prototipe Interaktif Desain Antarmuka & Alur Pengguna (Figma)',
+      en: 'Interactive UI/UX Prototype & User Flow Design in Figma'
+    },
+    shortDescription: {
+      id: 'Perancangan antarmuka dan purwarupa interaktif untuk AUBIZ yang mengintegrasikan alur pengguna intuitif, hierarki visual modern, dan komponen interaktif di Figma.',
+      en: 'Interface design and interactive prototype for AUBIZ featuring intuitive user workflows, modern visual hierarchy, and interactive components in Figma.'
+    },
+    role: {
+      id: 'UI/UX Designer & Prototyper',
+      en: 'UI/UX Designer & Prototyper'
+    },
+    skills: [
+      'UI/UX Design',
+      'Figma Prototyping',
+      'User Flow',
+      'Wireframing',
+      'Visual Hierarchy',
+      'Design System'
+    ],
+    image: '/images/Screenshot 2026-10-02 115225.png',
+    featured: false,
+    links: {
+      figma: AUBIZ_FIGMA_URL,
+      live: AUBIZ_FIGMA_URL,
+      note: {
+        id: 'Prototipe interaktif dapat diakses dan dicoba langsung di Figma Proto',
+        en: 'Interactive prototype is accessible and testable directly on Figma Proto'
+      }
+    },
+    details: {
+      overview: {
+        id: 'AUBIZ adalah proyek perancangan UI/UX komprehensif yang dikembangkan untuk menyajikan solusi digital yang mulus bagi pengguna. Prototipe ini berfokus pada kemudahan navigasi, kejelasan hierarki informasi, dan konsistensi sistem visual di seluruh layar aplikasi.',
+        en: 'AUBIZ is a comprehensive UI/UX design project developed to deliver a seamless digital solution for users. The prototype centers on navigational clarity, structured information hierarchy, and consistent visual systems across all application screens.'
+      },
+      myContribution: {
+        id: 'Alexabelle bertanggung jawab atas seluruh proses perancangan UI/UX, mulai dari pemetaan kebutuhan pengguna, wireframing, penataan tata letak visual, pembuatan komponen interaktif, hingga penyusunan prototipe klik-tayang (clickable prototype) di Figma.',
+        en: 'Alexabelle was responsible for the end-to-end UI/UX design process, from user requirement mapping, wireframing, and visual layout structuring to building interactive components and high-fidelity clickable prototypes in Figma.'
+      },
+      process: {
+        id: '1. Research & Ideation: Mengidentifikasi kebutuhan interaksi pengguna dan menyusun arsitektur informasi.\n2. Wireframing: Eksplorasi layout antarmuka dan pemetaan alur transisi antarlayar.\n3. Visual & UI Design: Merancang komponen visual, palet warna, tipografi, dan gaya tombol yang konsisten.\n4. Interactive Prototyping: Menghubungkan interaksi dan animasi mikro di Figma untuk menghasilkan purwarupa yang siap diuji.',
+        en: '1. Research & Ideation: Identified user interaction requirements and structured information architecture.\n2. Wireframing: Explored layout frameworks and mapped screen-to-screen navigation flows.\n3. Visual & UI Design: Designed modular visual components, color palettes, typography, and button states.\n4. Interactive Prototyping: Connected micro-interactions and screen transitions in Figma to create a test-ready prototype.'
+      },
+      skillsApplied: [
+        'Figma Advanced Prototyping',
+        'User Experience (UX) Flow',
+        'User Interface (UI) Design',
+        'Interaction Design',
+        'Component & Design System'
+      ],
+      output: {
+        id: 'Prototipe interaktif fidelitas tinggi (high-fidelity prototype) AUBIZ yang siap dipresentasikan dan diuji langsung oleh pengguna di Figma.',
+        en: 'High-fidelity interactive prototype of AUBIZ ready for presentation and direct user testing on Figma.'
+      },
+      evidence: {
+        status: {
+          id: 'Prototipe Figma Aktif',
+          en: 'Active Figma Prototype'
+        },
+        note: {
+          id: 'Tangkapan layar antarmuka prototipe UI/UX AUBIZ yang dapat dijelajahi langsung via Figma Proto.',
+          en: 'Interface screenshot of the AUBIZ UI/UX prototype, explorable directly via Figma Proto.'
+        },
+        image: '/images/Screenshot 2026-10-02 115225.png',
+        items: [
+          {
+            title: {
+              id: 'Figma Interactive Prototype',
+              en: 'Figma Interactive Prototype'
+            },
+            type: 'UI/UX Prototype',
+            description: {
+              id: 'Purwarupa interaktif dengan simulasi navigasi nyata dan interaksi antarmuka pengguna.',
+              en: 'Interactive prototype with real navigation simulation and user interface interactions.'
+            },
+            status: {
+              id: 'Tersedia di Figma',
+              en: 'Available on Figma'
             }
           }
         ]
@@ -510,6 +603,25 @@ export const TOOLS: ToolItem[] = [
 ];
 
 export const EXPERIENCE_ITEMS: ExperienceItem[] = [
+  {
+    id: 'project-aubiz-exp',
+    organization: 'AUBIZ — UI/UX Interactive Prototype',
+    role: {
+      id: 'UI/UX Designer & Prototyper',
+      en: 'UI/UX Designer & Prototyper'
+    },
+    description: {
+      id: 'Merancang arsitektur antarmuka digital dan purwarupa interaktif AUBIZ di Figma, menyusun hierarki visual intuitif, serta merumuskan alur pengguna (user flow) yang mulus.',
+      en: 'Designed digital interface architecture and interactive prototypes for AUBIZ in Figma, structuring intuitive visual hierarchy and seamless user interaction flows.'
+    },
+    skills: [
+      'UI/UX Design',
+      'Figma Prototyping',
+      'User Flow',
+      'Wireframing',
+      'Interaction Design'
+    ]
+  },
   {
     id: 'project-hospi',
     organization: 'HOSPI AI — Smart Hospitality Service',

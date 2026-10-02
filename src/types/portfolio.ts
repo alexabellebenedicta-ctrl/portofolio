@@ -28,6 +28,7 @@ export interface Project {
   links?: {
     live?: string;
     github?: string;
+    figma?: string;
     note?: LocalizedString;
   };
   details: {

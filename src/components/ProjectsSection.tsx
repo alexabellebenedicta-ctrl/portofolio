@@ -265,7 +265,20 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
                   </span>
 
                   <div className="flex items-center gap-2">
-                    {project.links?.live && (
+                    {project.links?.figma && (
+                      <a
+                        href={project.links.figma}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#7E22CE] hover:text-[#581C87] bg-purple-50/90 hover:bg-purple-100 border border-purple-200/70 px-2 py-0.5 rounded-lg transition-colors"
+                        title={language === 'id' ? 'Buka Prototipe Figma' : 'Open Figma Prototype'}
+                      >
+                        <span>Figma</span>
+                        <ArrowUpRight className="w-3 h-3" />
+                      </a>
+                    )}
+                    {project.links?.live && !project.links?.figma && (
                       <a
                         href={project.links.live}
                         target="_blank"

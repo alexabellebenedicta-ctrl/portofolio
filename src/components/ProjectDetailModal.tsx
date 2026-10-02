@@ -223,7 +223,19 @@ export const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({
                 <p className="text-[#5B556D]">{project.links.note[language]}</p>
               )}
               <div className="flex flex-wrap items-center gap-3 pt-1">
-                {project.links.live ? (
+                {project.links.figma && (
+                  <a
+                    href={project.links.figma}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-[#7E22CE] text-white rounded-lg font-medium hover:bg-[#6B21A8] transition-colors shadow-xs"
+                  >
+                    <span>Figma Prototype</span>
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                )}
+
+                {project.links.live && project.links.live !== project.links.figma ? (
                   <a
                     href={project.links.live}
                     target="_blank"
@@ -233,11 +245,11 @@ export const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({
                     <span>Live Website</span>
                     <ExternalLink className="w-3.5 h-3.5" />
                   </a>
-                ) : (
+                ) : !project.links.figma ? (
                   <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-purple-200 text-[#6B7280] rounded-lg font-medium">
                     <span>Live Website: {language === 'id' ? 'Dalam Pengembangan' : 'In Active Development'}</span>
                   </span>
-                )}
+                ) : null}
 
                 {project.links.github ? (
                   <a
@@ -249,11 +261,11 @@ export const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({
                     <span>GitHub</span>
                     <ExternalLink className="w-3.5 h-3.5" />
                   </a>
-                ) : (
+                ) : !project.links.figma ? (
                   <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-purple-200 text-[#6B7280] rounded-lg font-medium">
                     <span>GitHub: {language === 'id' ? 'Repositori Internal' : 'Internal Repository'}</span>
                   </span>
-                )}
+                ) : null}
               </div>
             </section>
           )}
